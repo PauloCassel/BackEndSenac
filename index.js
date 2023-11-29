@@ -11,12 +11,10 @@ server.listen(3000, () =>{
 console.log("Servidor está funcionando!");
 });
 
-
 // salvar
 function salvarDados(dados){
     fs.writeFileSync(__dirname + '/data/dados.json', JSON.stringify(dados, null, 2))
 }
-
 
 //---------------------------MEDICAMENTOS-------------------------------------------
 server.post('/medicamento', (req, res) => {
@@ -85,7 +83,7 @@ server.post('/cliente', (req, res) => {
 })
 
 server.get('/cliente', (req, res) => {
-    return res.json(dados.users)
+    return res.json(dados.cliente)
 })
 
 server.put('/cliente/:id', (req, res) => {
