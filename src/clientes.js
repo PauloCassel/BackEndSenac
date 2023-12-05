@@ -1,7 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Carregar a lista de clientes ao carregar a página
     loadClientesList();
-    // Adicionar um ouvinte de evento ao formulário para adicionar clientes
     document.getElementById('formAdicionarCliente').addEventListener('submit', function (event) {
         event.preventDefault();
         adicionarCliente();
@@ -27,7 +25,7 @@ function adicionarCliente() {
         .then(response => response.json())
         .then(data => {
             console.log(data);
-            loadClientesList(); // Recarregar a lista após adicionar um cliente
+            loadClientesList();
         })
         .catch(error => console.error('Error:', error));
 }

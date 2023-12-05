@@ -175,7 +175,7 @@ server.delete("/Fornecedor/:id", (req, res) => {
 server.post('/Venda', (req, res) => {
     const novoVenda = req.body
 
-    if(!novoVenda.id || !novoVenda.data || !novoVenda.id_medicamento || !novoVenda.id_medicamento) {
+    if(!novoVenda.id || !novoVenda.data || !novoVenda.id_medicamento || !novoVenda.id_cliente) {
         return res.status(400).json({mensagem: "Dados incompletos, tente novamente"})
     } else {
         dados.Venda.push(novoVenda)

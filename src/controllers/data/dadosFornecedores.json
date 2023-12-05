@@ -1,0 +1,14 @@
+{
+  "Fornecedores": [
+    {
+      "nome": "Iuri",
+      "endereco": "Rua dos Andrades",
+      "telefone": "55996840281"
+    },
+    {
+      "nome": "asd",
+      "endereco": "asd",
+      "telefone": "123"
+    }
+  ]
+}

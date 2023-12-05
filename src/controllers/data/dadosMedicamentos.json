@@ -1,0 +1,28 @@
+{
+  "Medicamentos": [
+    {
+      "nome": "Paracetamol",
+      "fabricante": "são joão",
+      "preco": "12",
+      "quantidade": "1"
+    },
+    {
+      "nome": "asd",
+      "fabricante": "asd",
+      "preco": "asd@asd",
+      "quantidade": "123"
+    },
+    {
+      "nome": "asd",
+      "fabricante": "asdasd",
+      "preco": "123",
+      "quantidade": "123123"
+    },
+    {
+      "nome": "asd",
+      "fabricante": "asd",
+      "preco": "123",
+      "quantidade": "123"
+    }
+  ]
+}

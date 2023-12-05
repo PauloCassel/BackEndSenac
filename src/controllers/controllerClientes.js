@@ -1,6 +1,6 @@
 const express = require('express');
 const server = express();
-const dadosClientes = require('./data/dadosClientes.json'); // Novo arquivo para dados de clientes
+const dadosClientes = require('./data/dadosClientes.json');
 const fs = require('fs');
 server.use(express.json());
 server.post('/clientes', (req, res) => {
